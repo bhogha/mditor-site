@@ -45,3 +45,17 @@ nav { text-align: center; margin-top: 16px; }
 nav a { margin: 0 12px; }
 footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 56px; }
 .muted { color: var(--muted); }
+.download { margin: 24px 0 8px; }
+a.button {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  padding: 12px 28px;
+  border-radius: 999px;
+}
+a.button:hover { text-decoration: none; filter: brightness(1.08); }
+@media (prefers-color-scheme: dark) { a.button { color: #111113; } }
+.small { font-size: 14px; }
+ol { padding-left: 22px; }
